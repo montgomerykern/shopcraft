@@ -1,7 +1,5 @@
 # ShopCraft
 
-![expressCart](https://raw.githubusercontent.com/mrvautin/expressCart/master/public/images/logo.png)
-
 Payment providers included:
 - [Stripe](https://stripe.com/)
 - [PayPal](http://paypal.com/)
