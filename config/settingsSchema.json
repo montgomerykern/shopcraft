@@ -2,11 +2,11 @@
     "properties": {
         "cartTitle": {
             "type": "string",
-            "default": "expressCart"
+            "default": "ShopCraft"
         },
         "cartDescription": {
             "type": "string",
-            "default": "This is my expressCart"
+            "default": "This is my ShopCraft"
         },
         "cartLogo": {
             "type": "string"
