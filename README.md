@@ -1,8 +1,6 @@
-# expressCart
+# ShopCraft
 
 ![expressCart](https://raw.githubusercontent.com/mrvautin/expressCart/master/public/images/logo.png)
-
-`expressCart` is a fully functional shopping cart built in Node.js (Express, MongoDB) with built in popular payment providers.
 
 Payment providers included:
 - [Stripe](https://stripe.com/)
@@ -12,28 +10,6 @@ Payment providers included:
 - [Adyen](https://www.adyen.com/)
 - [PayWay](https://www.payway.com.au/)
 - Instore
-
-[![Github stars](https://img.shields.io/github/stars/mrvautin/expressCart.svg?style=social&label=Star)](https://github.com/mrvautin/expressCart)
-
-[![Actions Status](https://github.com/mrvautin/expressCart/workflows/expressCart-tests/badge.svg)](https://github.com/mrvautin/expressCart/actions)
-
-[**View the demo**](https://demo.expresscart.markmoffat.com/) [**Admin demo**](https://demo.expresscart.markmoffat.com/admin/)
-
-```
-Demo credentials
-
-Admin User:
-- User: `demo@test.com`
-- Password: `test`
-
-Customer:
-- User: `test@test.com`
-- Password: `test`
-
-Discount code:
-- 10 amount: `DEMO_AMT10`
-- 10 percent: `DEMO_PCT10`
-```
 
 ## Installation
 
@@ -45,27 +21,6 @@ Discount code:
 6. Visit [http://127.0.0.1:1111](http://127.0.0.1:1111) in your browser
 
 Keeping expressCart running after closing the terminal can be done in a few ways but we recommend using the `PM2` package. To set this up:
-
-1. Install PM2: `npm install pm2 -g`
-2. Add expressCart to PM2: `NODE_ENV=production pm2 start app.js --name "expressCart"`
-3. Check PM2 has our app: `pm2 list`
-4. Save the PM2 config: `pm2 save`
-5. To start/stop: `pm2 start expressCart` / `pm2 stop expressCart`
-
-> Note: Node.js version 7.x or greater is needed.
-
-### Docker
-
-The easiest way to get up and running is using Docker. Once the Docker CLI is installed from [https://www.docker.com/get-docker](https://www.docker.com/get-docker).
-
-1. Enter the root of the expressCart application
-2. Change `/config/settings.json` - `"databaseConnectionString": "mongodb://mongodb:27017/expresscart"`
-3. Run: `docker-compose up --build`
-4. Visit [http://127.0.0.1:1111](http://127.0.0.1:1111) in your browser
-5. Optional. To install test data run the following 
-- `docker exec -it expresscart bash`
-- `npm run testdata`
-- `exit`
 
 ### Deploy on Heroku
 
