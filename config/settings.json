@@ -17,7 +17,8 @@
     "customCss": "",
     "currencySymbol": "$",
     "paymentGateway": "stripe",
-    "databaseConnectionString": "mongodb://mkern:Sliver88@ds061611.mlab.com:61611/heroku_3q64sksr",
+    "databaseConnectionString": "mongodb+srv://mkern:Mk363861338@cluster0-exu5b.mongodb.net/<dbname>?retryWrites=true&w=majority<dbname>?retryWrites=true&w=majority",
+
     "theme": "Cloth",
     "trackStock": false,
     "orderHook": "",

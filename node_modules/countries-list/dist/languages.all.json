@@ -106,7 +106,7 @@
   },
   "cs": {
     "name": "Czech",
-    "native": "Česky"
+    "native": "Čeština"
   },
   "cu": {
     "name": "Old Church Slavonic / Old Bulgarian",
@@ -363,8 +363,8 @@
     "native": "Kernewek"
   },
   "ky": {
-    "name": "Kirghiz",
-    "native": "Kırgızca / Кыргызча"
+    "name": "Kyrgyz",
+    "native": "Кыргызча"
   },
   "la": {
     "name": "Latin",
